@@ -36,7 +36,7 @@
 	-->
 	<target name="compile" depends ="clean,resolve">
 	  <mkdir dir="${classes.dir}"/>
-	  <javac srcdir="${src.dir}" destdir="${classes.dir}">
+	  <javac srcdir="${src.dir}" target="1.8" destdir="${classes.dir}">
 	    <!--
 		TODO: Define the classpath to be a combination of the 'compile.classpath' fileset
 		created by the "resolve" target above and a pathelement of the 'classes.dir' property.
@@ -55,7 +55,7 @@
 	-->
 	<target name="test-compile" depends="compile">
 	  <mkdir dir="${classes.test.dir}"/>
-	  <javac srcdir="${src.test.dir}" destdir="${classes.test.dir}">
+	  <javac srcdir="${src.test.dir}" target="1.8" destdir="${classes.test.dir}">
 	    <!--
 		TODO: Define the classpath to be a combination of the 'test.classpath' fileset
 		created by the "resolve" target above, a pathelement of the 'classes.dir' property,
