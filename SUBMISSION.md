@@ -22,8 +22,8 @@ The first argument is the Alt-text for the image. The second argument is the pat
 ![Screen Capture #1](images/ant_hello_world_ok.png)
 
 - [10 pts] Links to the complete and correct [hello-world/build.xml](hello-world/build.xml) and [hello-world/ivy.xml](hello-world/ivy.xml) files.
-https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/build.xml
-https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/ivy.xml
+    - https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/build.xml
+    - https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/ivy.xml
 
 
 # Maven [30 pts]
@@ -36,7 +36,7 @@ https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/ivy.xml
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Maven build.
 ![Screen Capture #1](images/maven_jar_exec.png)
 - [10 pts] Links to the complete and correct [hello-world/pom.xml](hello-world/pom.xml) file.
-https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/pom.xml
+    - https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/pom.xml
 
 
 # Gradle [30 pts]
@@ -48,4 +48,4 @@ https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/pom.xml
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Gradle build.
 ![Screen Capture #1](images/gradle_jar_exec.png)
 - [10 pts] Links to the complete and correct [hello-world/build.gradle](hello-world/build.gradle) file.
-https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/build.gradle
+    - https://github.com/depaulcdm/hw4-lhdpu/blob/master/hello-world/build.gradle
